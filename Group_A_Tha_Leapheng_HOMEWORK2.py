@@ -1,5 +1,4 @@
 print("----- ATM Simulator -----") 
-
 UserPIN=int(input("ENTER YOUR 4-DIGIT PIN : "))
 if UserPIN==1234:
     print("Login successfully!")
