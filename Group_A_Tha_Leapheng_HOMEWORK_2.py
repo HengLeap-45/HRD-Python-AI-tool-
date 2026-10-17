@@ -20,6 +20,7 @@ while True:
 
     if choice == "1":                  
         amount = float(input("Amount to deposit: "))
+        
         if amount > 0:
             balance += amount
             print(f"Deposited ${amount:.2f}. New balance: ${balance:.2f}")
