@@ -2,7 +2,7 @@ print("----- ATM Simulator -----")
 balance = 1000.00     
 attempts = 3           
 
-while attempts > 0:
+while attempts > 0: 
     pin = input("Enter your 4-digit PIN: ")
     if pin == "1234":                  
         print("Login successful!")
